@@ -1,0 +1,42 @@
+
+
+  
+body{
+    background: url("https://spencer2124.files.wordpress.com/2014/06/background.png?w=1682&h=12627");
+}
+
+p{
+	color: #083645;
+}
+
+h2 {
+	color: #390A45;
+}
+h1 {
+	color: #390A45;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+div.p {
+    font-size: 40px;
+}
+
+#boxing{
+	width: 300px;
+	height: 300px;
+	margin-left: 600px;
+	background: white;
+
+}
+
+
+
+
+
+
