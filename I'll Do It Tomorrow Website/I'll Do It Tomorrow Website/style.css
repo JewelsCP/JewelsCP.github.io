@@ -1,0 +1,143 @@
+body {
+  background-color: #F5D1F5;
+}
+
+
+
+#headers {
+  border: 3px double black;
+  width: 100%;
+	height: 140px;
+	margin-top: 10px;
+  margin-right: 5px;
+	background: linear-gradient(#EAD2D7, #FEF0D8);
+}
+h1 {
+  font-family: monastic;
+  font-size: 100px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1abc9c;
+
+}
+.topnav {
+    font-family: monostic;
+    color: black;
+    background-color: #05382C;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #EAD2D7;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #1abc9c;
+    color: black;
+}
+
+
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;
+  background-image: url("https://cdn.pixabay.com/photo/2017/05/10/10/46/flowers-2300514_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+p {
+  width: 25px;
+  display: 100px;
+  height:50px;
+  box-sizing:border-box;
+}
+
+
+
+/* Month header */
+.month {
+    padding: 70px 25px;
+    width: ;
+    background: #1abc9c;
+    text-align: center;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 50px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 50px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}s
+/* body {
+    background: linear-gradient(#3C114E, #ECD385);
+} */
