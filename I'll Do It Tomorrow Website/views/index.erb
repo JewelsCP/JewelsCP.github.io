@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+  <style>
+  li {
+display: inline;
+  }
+
+ </style>
+<title>I'll Do It Tomorrow </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<center>
+<div id="headers">
+<h1> I'll Do It Tomorrow </h1>
+</div>
+</center>
+
+
+</head>
+
+<body>
+
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">Calendar</a>
+  <a href="#contact">Assignments</a>
+  <a href="#about">About</a>
+</div>
+
+
+
+
+<!-- -  <p><%= f.label :email %><br />
+-  <%= f.email_field :email %></p>
++  <p><%= f.label :login %><br />
++  <%= f.text_field :login %></p> -->
+
+
+<center>
+<form method="POST" action="/print">
+<div class="taskFormat">
+  <p> Task: <input type="text" name="name" style="padding: 20px 90px" ><p/>
+  <p style="margin-left: -30px"> Time Due:<input type="text" name="TimeDue" style="padding: 20px 90px;" ><p/>
+  <p> Class: <input type="text" name="Class" style="padding: 20px 90px" ><p/>
+  <input type="submit" style="width: 100px; font-size: 15px;"
+</div>
+
+</form>
+</center>
+
+
+<!-- <<img src=https://cdn.pixabay.com/photo/2017/05/10/10/46/flowers-2300514_960_720.jpg> -->
+<!-- a:<link rel="stylesheet" href="/css/master.css"> -->
+<!-- <div class="topnav">
+  <a>Display a list of links as a horizontal menu:</p>
+  <a href="#home">Home</a>
+  <a href="#assignments">Assignments</a>
+  <a href="#about">About</a>
+  <a href="#profile">Profile</a>
+
+  <ul>
+    <li><a href="/html/default.asp" target="_blank">Home</a></li>
+    <li><a href="/html/default.asp" target="_blank">Assignments</a></li>
+    <li><a href="/css/default.asp" target="_blank">About</a></li>
+    <li><a href="/js/default.asp" target="_blank">Profile</a></li>
+  </ul>
+</div> -->
+
+<!-- <right> -->
+  <!-- <h2>
+  <%@user_name%>
+  <%@user_class%>
+</h2> -->
+
+</menu>
+<center>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=29h7113rdh1lfm5rjt926tsqsc%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=America%2FDenver"
+style = border:"solidpx #777"
+width= "700"
+height="500"
+frameborder="0"
+scrolling="no"
+</iframe>
+</center>
+
+
+
+</body>
+
+</html>
